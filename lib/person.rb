@@ -3,5 +3,5 @@ class Person
     @name = name
   end 
   
-  attr_acc :name
+  attr_accessor :name
 end 
