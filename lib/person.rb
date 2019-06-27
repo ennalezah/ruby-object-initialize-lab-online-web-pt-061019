@@ -3,11 +3,5 @@ class Person
     @name = name
   end 
   
-  def breed=(breed)
-    @breed = breed
-  end
-  
-  def breed 
-    @breed
-  end
+  attr_acc :name
 end 
